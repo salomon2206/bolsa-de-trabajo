@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body{
+	background: #fff;
+	font-family: "Open Sans", San-serif;
+	font-size: 16px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  overflow: hidden; 
+}
+
+
+/*-----------HEADER--------*/
+header{
+	background: url('../img/BolsaTrabajo0.jpg') #57FFE2;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100%;
+}
+
+header .menu{
+	margin: 3.125rem 0;
+	text-align: right;
+}
+
+header .menu a{
+	margin: 0 1.25rem;
+	color: #fff;
+	padding-bottom: 0.3125rem;
+	display: inline-block;
+	text-decoration: none;
+	border-bottom: 0.125rem solid transparent;
+	font-size: 1em;
+}
+
+header .menu a:hover{
+	border-bottom: 0.125rem solid #fff;
+}
+
+header .contenedor-texto{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 5.625rem 0;
+}
+
+header .contenedor-texto .texto{
+	border:0.125rem solid rgba(255,255,255,0.5);
+	border-radius: 0.1875rem;
+	display: inline-block;
+	text-align: center;
+	padding: 1.25rem 3.75rem;
+}
+
+header .contenedor-texto .texto h2{
+	 color: #302525;
+   font-weight: 300;
+   margin: 0; 
+}
+
+header .contenedor-texto .texto .nombre{
+	margin-bottom: 0.625rem;
+	font-size: 3.125rem;
+	line-height: 3.125rem;
+}
+
+header .contenedor-texto .texto .empresa{	
+	font-size: 1.5625rem;
+	line-height: 1.5625rem;
+}
+
+/*------------main-------------*/
+.main{
+  height:50%;
+  margin:20px;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+
+.main .texto{
+  display: inline-block;
+  position: relative;
+  height: 60%;
+  margin: 1em;
+}
+
+.main .texto h3{
+  text-align: left; 
+  color: #057FF2;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.main .logo{
+  display: inline-block;
+  position: relative;
+  height: 90%;
+  margin: 1em;
+  float: right;
+}
+
+.logo img{
+  width: 250px;
+ } 
+
+ /*--------------sesion----------------- */
+
+.sesion {
+  margin-top: 0px;
+  margin:30px;
+  padding: 60px 0;
+  background: #E8FFFB;
+}
+
+.sesion .titulo {
+  font-size: 34px;
+    line-height: 34px;
+    margin-bottom: 60px;
+    font-weight: 300;
+    color: #110F0F;
+    text-align: left; 
+}
+
+.sesion .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sesion .formulario input[type="text"],
+.sesion .formulario input[type="password"]{
+      border: 2px solid #cecece;
+      border-radius: 5px;
+      padding: 15px 20px;
+      font-size: 20px;
+      color: #a4a4a4;
+      width: 49%;
+      margin-bottom: 15px;
+}
+ .sesion .formulario .boton {
+      margin: auto;
+      background: #3895ea;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      padding: 15px 40px;
+}
+ .sesion .formulario .boton:hover {
+        background: #000;
+}
+
+h6{
+  font-size: 34px;
+  line-height: 34px;
+  margin-bottom: 60px;
+  font-weight: 300;
+  color: #110F0F;
+  margin-top: 4.375em;
+  margin-left:60px;
+}
+
+.sesion .menu2 a{
+  margin: 0px 70px; 
+  color: #057FF2;
+  padding-bottom: 5px;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 2px solid transparent; /*borde para pasar mouse*/
+  font-size: 2em;
+  text-align: right;
+}
+
+.sesion .menu2 a:hover{
+  border-bottom: 3px solid #57FFE2;
+}
